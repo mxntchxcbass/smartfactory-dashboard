@@ -1,9 +1,0 @@
-{
-  "n8n_webhook_url": "http://localhost:5678/webhook/predict",
-  "n8n_ai_webhook_url": "http://localhost:5678/webhook/ai",
-  "n8n_report_webhook_url": "http://localhost:5678/webhook/report",
-  "discord_min_interval_sec": 30,
-  "class_labels": {"0": "불량·저", "1": "정상", "2": "불량·고"},
-  "thresholds": {"A": {"t01": 0.5251, "t12": 0.5351},
-                 "TO": {"t01": 0.5251, "t12": 0.5349}}
-}
